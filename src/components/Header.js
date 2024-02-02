@@ -20,7 +20,7 @@ const Header = ()=>{
                 <Link to='/'><h1 className="p-2 ">Home</h1></Link>
                 <Link to='/about'><h1 className="p-2">About Us</h1></Link>
                 <h1 className="p-2">Service</h1>
-                <h1 className="p-2">Contact</h1>
+                <Link to='/contact'><h1 className="p-2">Contact</h1></Link>
                 {isLoggedIn ? (
           <h1 className="p-2 cursor-pointer" onClick={logout}>
             Logout

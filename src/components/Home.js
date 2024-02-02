@@ -110,8 +110,9 @@ const Home = () => {
         </div>
       </div>
       {/* cards */}
-      <div className="bg-gray-200">
-        <div className="p-2 flex justify-center">
+      <div className="bg-gray-200 h-100vh">
+        <div className="py-20">
+        <div className="p-4 flex justify-center">
           <h1 className="font-bold font-serif text-2xl text-blue-500">
             Comprehensive care, one convenient location
           </h1>
@@ -148,6 +149,8 @@ const Home = () => {
             </p>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   );
